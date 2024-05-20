@@ -17,4 +17,5 @@ module.exports = defineConfig({
     },
     specPattern: 'cypress/e2e/**/*.feature',
   },
+  
 });
