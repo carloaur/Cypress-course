@@ -9,6 +9,7 @@
     "webpack": "^5.76.2"
   },
   "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
     "stepDefinitions": [
       "./cypress/e2e/[filepath]/**/*.{js,ts}",
       "./cypress/e2e/[filepath].{js,ts}",
